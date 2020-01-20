@@ -1,6 +1,8 @@
 name: Push image to Docker Hub
 
-on: [push]
+on:
+  release:
+    types: [published]
 
 jobs:
 
